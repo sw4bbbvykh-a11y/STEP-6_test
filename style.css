@@ -1,0 +1,68 @@
+/* 全体の基本的なスタイリング */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    color: #333;
+}
+
+/*　見出しのスタイル　　*/
+h2 {
+    margin-bottom: 20px;
+}
+
+/* テーブルの枠線を指定通り「３px」　*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 3px solid #333; /* 枠線の太さを３pxに指定　*/
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    width: 15px;
+}
+
+/* 入力欄やテキストエリアのスタイル */
+input[type="text"], textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+/* サイドバーとメインコンテンツのレイアウト例 */
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+/* フッターのスタイル */
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
