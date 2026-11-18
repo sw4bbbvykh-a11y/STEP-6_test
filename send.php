@@ -55,7 +55,6 @@ $is_sent = mail($to, $subject, $body, $headers);
                 <li><a href="#">投稿ページ</a></li>
             </ul>
         </aside>
-
         <!-- メインコンテンツ -->
         <main>
             <p>
@@ -72,4 +71,3 @@ $is_sent = mail($to, $subject, $body, $headers);
     </div>
 
 </body>
-</html>
